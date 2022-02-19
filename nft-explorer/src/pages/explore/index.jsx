@@ -19,9 +19,9 @@ const Explore = () => {
                 <div className='flex flex-col items-center mb-12'>
                     <div className='mb-16 text-white text-center'>
                         <h1 className='text-5xl  font-bold font-body mb-2'>
-                            Alchemy NFT Explorer
+                            Let's See All Your NFTs
                         </h1>
-                        <p>Multichain inspector to find NFTs by owner and contract address </p>
+                        <p>This multichain inspectors lets you view all the NFTs filtered by owner and contract address </p>
                     </div>
                     <div className='flex flex-col items-center justify-center mb-4 w-2/6 gap-y-2 '>
                         <input className="border rounded-sm focus:outline-none py-2 px-3 w-full" value={owner} onChange={(e) => setOwner(e.target.value)} placeholder='Insert your wallet address'></input>
